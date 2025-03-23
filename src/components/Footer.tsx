@@ -7,7 +7,7 @@ export default function Footer() {
       <p>&copy; {new Date().getFullYear()} Soumadeep Maiti. All rights reserved.</p>
 
       <div className="mt-4 flex justify-center gap-6 text-4xl opacity-60 text-gray-800">
-        <a href="mailto:soumadeep@example.com" aria-label="Email" className="hover:text-blue-600 p-2">
+        <a href="soumadeepmaiti21@gmail.com" aria-label="Email" className="hover:text-blue-600 p-2">
           <MdEmail />
         </a>
         <a href="https://github.com/soumadeepmaiti/" target="_blank" aria-label="GitHub" className="hover:text-blue-600 p-2">
