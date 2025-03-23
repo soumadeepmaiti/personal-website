@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex flex-col min-h-screen">
       <Navbar />
       <section className="flex-grow flex flex-col items-center justify-center relative bg-transparent text-center px-4">
-        <h1 className="text-5xl font-bold z-10 text-white-900">Hi, I'm Soumadeep</h1>
+        <h1 className="text-5xl font-bold z-10 text-white-900">Hi, I&apos;m Soumadeep</h1>
         <p className="text-lg mt-4 z-10 max-w-xl text-white-700">
           Welcome to my personal website. Explore my works and my interests!
         </p>
@@ -29,5 +29,3 @@ export default function Home() {
     </main>
   );
 }
-
-
