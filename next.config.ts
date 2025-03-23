@@ -1,6 +1,7 @@
-const nextConfig = {
-  // Clean config for Vercel
-  reactStrictMode: true,
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
 export default nextConfig;
