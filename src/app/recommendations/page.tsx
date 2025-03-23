@@ -34,7 +34,7 @@ export default function RecommendationsPage() {
         <button onClick={() => router.back()}>
           <ArrowLeftIcon className="h-6 w-6 text-white hover:text-blue-400" />
         </button>
-        <h1 className="text-3xl font-bold text-center">Recommendations</h1>
+        <h1 className="text-5xl font-bold text-white text-center flex-1 -ml">Recommendations</h1>
         <Link href="/">
           <HomeIcon className="h-6 w-6 text-white hover:text-blue-400" />
         </Link>

@@ -16,15 +16,15 @@ export default function HobbiesPage() {
   ];
 
   return (
-    <main className="min-h-screen text-white">
-      {/* Top bar */}
-      <div className="flex justify-between items-center px-6 pt-4 pb-2">
+    <main className="min-h-screen w-full flex flex-col bg-black text-white">
+      {/* Top Bar */}
+      <div className="flex justify-between items-center px-6 py-4 z-10">
         <button onClick={() => router.back()}>
-          <ArrowLeftIcon className="h-7 w-7 text-blue-400 hover:text-blue-600" />
+          <ArrowLeftIcon className="h-6 w-6 text-white hover:text-blue-400" />
         </button>
-        <h1 className="text-4xl font-bold text-center">Hobbies</h1>
+        <h1 className="text-5xl font-bold text-white text-center flex-1 -ml">Hobbies</h1>
         <Link href="/">
-          <HomeIcon className="h-7 w-7 text-blue-400 hover:text-blue-600" />
+          <HomeIcon className="h-6 w-6 text-white hover:text-blue-400" />
         </Link>
       </div>
 

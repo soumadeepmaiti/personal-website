@@ -15,17 +15,13 @@ export default function ProjectsPage() {
         style={{ backgroundImage: 'url("/web.png")' }}
       ></div>
       {/* Top bar with Back and Home */}
-      <div className="flex justify-between items-center px-6 pt-6">
+      <div className="flex justify-between items-center px-6 py-4 z-10">
         <button onClick={() => router.back()}>
-          <ArrowLeftIcon className="h-7 w-7 text-blue-600 hover:text-blue-800" />
+          <ArrowLeftIcon className="h-6 w-6 text-white hover:text-blue-400" />
         </button>
-
-        <h1 className="text-5xl font-bold text-white text-center flex-1 -ml-7">
-          Projects
-        </h1>
-
+        <h1 className="text-5xl font-bold text-white text-center flex-1 -ml">Projects</h1>
         <Link href="/">
-          <HomeIcon className="h-7 w-7 text-blue-600 hover:text-blue-800" />
+          <HomeIcon className="h-6 w-6 text-white hover:text-blue-400" />
         </Link>
       </div>
 
@@ -38,7 +34,7 @@ export default function ProjectsPage() {
                 Dark Matter Halo Finder
             </h2>
             <p className="mt-4 text-xl text-gray-800">
-                A machine learning tool to detect dark matter halos in numerical.
+                A machine learning tool to detect dark matter halos in cosmological simulation.
             </p>
           </div>
         </Link>
@@ -47,10 +43,10 @@ export default function ProjectsPage() {
         <Link href="/projects/project2">
           <div className="bg-white bg-opacity-70 hover:bg-opacity-90 transition-all p-10 rounded-xl shadow-md border border-black/20 hover:scale-[1.01] backdrop-blur-sm cursor-pointer">
             <h2 className="text-4xl font-bold flex items-center gap-3">
-                Title of the Project2
+              Project 2
             </h2>
             <p className="mt-4 text-xl text-gray-800">
-                Description of Project2
+                Description of project 2
             </p>
           </div>
         </Link>
